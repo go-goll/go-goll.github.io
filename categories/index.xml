@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories on iwindu</title>
-    <link>https://blog.iwindu.com/categories/</link>
-    <description>Recent content in Categories on iwindu</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    
-	<atom:link href="https://blog.iwindu.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on iwindu</title><link>https://blog.iwindu.com/categories/</link><description>Recent content in Categories on iwindu</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 08 Mar 2024 22:00:00 +0800</lastBuildDate><atom:link href="https://blog.iwindu.com/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Go</title><link>https://blog.iwindu.com/categories/go/</link><pubDate>Fri, 08 Mar 2024 22:00:00 +0800</pubDate><guid>https://blog.iwindu.com/categories/go/</guid><description/></item></channel></rss>

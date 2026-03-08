@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>重构 on iwindu</title><link>https://blog.iwindu.com/tags/%E9%87%8D%E6%9E%84/</link><description>Recent content in 重构 on iwindu</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 08 Mar 2024 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.iwindu.com/tags/%E9%87%8D%E6%9E%84/index.xml" rel="self" type="application/rss+xml"/><item><title>博客重构完成 —— 新的开始</title><link>https://blog.iwindu.com/post/blog-rebuild/</link><pubDate>Fri, 08 Mar 2024 10:00:00 +0800</pubDate><guid>https://blog.iwindu.com/post/blog-rebuild/</guid><description>&lt;h2 id="-博客重构完成">🎉 博客重构完成&lt;/h2>
+&lt;p>经过一段时间的筹划和开发，我的博客正式启用全新主题！&lt;/p>
+&lt;h3 id="-新特性">✨ 新特性&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>深色模式优先&lt;/strong> — 默认深色主题，保护视力，符合开发者习惯&lt;/li>
+&lt;li>&lt;strong>响应式设计&lt;/strong> — 完美适配桌面、平板、手机&lt;/li>
+&lt;li>&lt;strong>极速加载&lt;/strong> — Hugo 静态生成，CDN 友好&lt;/li>
+&lt;li>&lt;strong>代码高亮&lt;/strong> — 优化的代码块显示，支持行号&lt;/li>
+&lt;li>&lt;strong>标签系统&lt;/strong> — 更好的内容组织和发现&lt;/li>
+&lt;/ul>
+&lt;h3 id="-技术栈">🛠 技术栈&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>技术&lt;/th>
+ &lt;th>用途&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Hugo&lt;/td>
+ &lt;td>静态站点生成器&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>自定义主题&lt;/td>
+ &lt;td>GoDev 主题&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>GitHub Pages&lt;/td>
+ &lt;td>托管部署&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="-代码示例">📝 代码示例&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-go" data-lang="go">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">package&lt;/span> &lt;span class="nx">main&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="s">&amp;#34;fmt&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kd">func&lt;/span> &lt;span class="nf">main&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">fmt&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nf">Println&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Hello, new blog!&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="-未来计划">🚀 未来计划&lt;/h3>
+&lt;ol>
+&lt;li>定期分享 Go 语言开发心得&lt;/li>
+&lt;li>SSL/TLS 安全实践系列文章&lt;/li>
+&lt;li>FIDO/WebAuthn 无密码认证教程&lt;/li>
+&lt;li>ACME 协议和 Let&amp;rsquo;s Encrypt 自动化&lt;/li>
+&lt;/ol>
+&lt;p>感谢关注，敬请期待更多内容！&lt;/p></description></item></channel></rss>

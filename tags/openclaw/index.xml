@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on iwindu</title><link>https://blog.iwindu.com/</link><description>Recent content in Home on iwindu</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 08 Mar 2024 22:00:00 +0800</lastBuildDate><atom:link href="https://blog.iwindu.com/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenClaw 安装与使用指南：打造你的专属 AI 助手</title><link>https://blog.iwindu.com/post/openclaw-guide/</link><pubDate>Fri, 08 Mar 2024 22:00:00 +0800</pubDate><guid>https://blog.iwindu.com/post/openclaw-guide/</guid><description>&lt;h2 id="什么是-openclaw">什么是 OpenClaw？&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Openclaw on iwindu</title><link>https://blog.iwindu.com/tags/openclaw/</link><description>Recent content in Openclaw on iwindu</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 08 Mar 2024 22:00:00 +0800</lastBuildDate><atom:link href="https://blog.iwindu.com/tags/openclaw/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenClaw 安装与使用指南：打造你的专属 AI 助手</title><link>https://blog.iwindu.com/post/openclaw-guide/</link><pubDate>Fri, 08 Mar 2024 22:00:00 +0800</pubDate><guid>https://blog.iwindu.com/post/openclaw-guide/</guid><description>&lt;h2 id="什么是-openclaw">什么是 OpenClaw？&lt;/h2>
 &lt;p>&lt;strong>OpenClaw&lt;/strong> 是一个开源的自托管 AI 助手平台，它让你能够在自己的服务器上运行 AI 助手，并通过多种渠道（Telegram、WhatsApp、Discord、Slack 等）与你交互。&lt;/p>
 &lt;p>与传统的 AI 聊天服务不同，OpenClaw 的核心理念是&lt;strong>自主可控&lt;/strong>：&lt;/p>
 &lt;table>
@@ -104,23 +104,4 @@
 &lt;h3 class="method-title">npm 安装&lt;/h3>
 &lt;/div>
 &lt;div class="method-body">
-&lt;p class="method-desc">适合已安装 Node.js 22+ 的用户&lt;/p></description></item><item><title>关于</title><link>https://blog.iwindu.com/page/about/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://blog.iwindu.com/page/about/</guid><description>&lt;h2 id="-你好我是-iwindu">👋 你好，我是 iwindu&lt;/h2>
-&lt;p>一名热爱技术的 &lt;strong>Go 语言开发者&lt;/strong>，专注于以下领域：&lt;/p>
-&lt;h3 id="-专业领域">🎯 专业领域&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>Go 语言开发&lt;/strong> — 高性能后端服务、微服务架构、云原生应用&lt;/li>
-&lt;li>&lt;strong>SSL/TLS 安全&lt;/strong> — 证书管理、协议实现、安全最佳实践&lt;/li>
-&lt;li>&lt;strong>FIDO 认证&lt;/strong> — 无密码认证、WebAuthn 协议、硬件密钥&lt;/li>
-&lt;li>&lt;strong>ACME 协议&lt;/strong> — Let&amp;rsquo;s Encrypt 自动化、证书生命周期管理&lt;/li>
-&lt;/ul>
-&lt;h3 id="-关于这个博客">📝 关于这个博客&lt;/h3>
-&lt;p>这里记录我的技术探索、学习心得和实践经验。&lt;/p>
-&lt;blockquote>
-&lt;p>&amp;ldquo;吹吹风，过过生活&amp;rdquo; —— 在代码与生活之间寻找平衡。&lt;/p>&lt;/blockquote>
-&lt;h3 id="-联系方式">🔗 联系方式&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>GitHub&lt;/strong>: &lt;a href="https://github.com/go-goll">go-goll&lt;/a>&lt;/li>
-&lt;li>&lt;strong>博客&lt;/strong>: &lt;a href="https://blog.iwindu.com">blog.iwindu.com&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;p>欢迎交流技术问题，也欢迎提出建议！&lt;/p></description></item></channel></rss>
+&lt;p class="method-desc">适合已安装 Node.js 22+ 的用户&lt;/p></description></item></channel></rss>

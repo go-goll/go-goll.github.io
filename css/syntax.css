@@ -1,0 +1,44 @@
+/* GitHub Dark Syntax Highlighting */
+.highlight pre {
+  background-color: #1c2128;
+  color: #e6edf3;
+}
+
+.highlight .c, .highlight .c1, .highlight .cm {
+  color: #8b949e;
+  font-style: italic;
+}
+
+.highlight .k, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt {
+  color: #ff7b72;
+}
+
+.highlight .s, .highlight .s1, .highlight .s2, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx {
+  color: #a5d6ff;
+}
+
+.highlight .na, .highlight .nb, .highlight .nc, .highlight .nd, .highlight .ne, .highlight .nf, .highlight .nl, .highlight .nn, .highlight .no, .highlight .nt {
+  color: #d2a8ff;
+}
+
+.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo {
+  color: #79c0ff;
+}
+
+.highlight .o, .highlight .ow {
+  color: #ff7b72;
+}
+
+.highlight .p {
+  color: #e6edf3;
+}
+
+.highlight .gd {
+  color: #ffdcd7;
+  background-color: #67060c;
+}
+
+.highlight .gi {
+  color: #aff5b4;
+  background-color: #033a16;
+}

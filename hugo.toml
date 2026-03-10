@@ -33,10 +33,10 @@ hasCJKLanguage = true
     imageTitle = "iwindu"
     [[params.profileMode.buttons]]
         name = "浏览文章"
-        url = "/posts"
+        url = "/posts/"
     [[params.profileMode.buttons]]
-        name = "GitHub"
-        url = "https://github.com/go-goll"
+        name = "全AI创作小说平台"
+        url = "https://read.iwindu.com"
 
 [[params.socialIcons]]
     name = "github"

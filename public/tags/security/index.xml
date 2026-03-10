@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>iwindu</title>
-    <link>https://blog.iwindu.com/</link>
-    <description>Recent content on iwindu</description>
+    <title>Security on iwindu</title>
+    <link>https://blog.iwindu.com/tags/security/</link>
+    <description>Recent content in Security on iwindu</description>
     <image>
       <title>iwindu</title>
       <url>https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1200&amp;q=80</url>
@@ -12,7 +12,7 @@
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 09 Mar 2026 23:55:00 +0800</lastBuildDate>
-    <atom:link href="https://blog.iwindu.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.iwindu.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>从 ACME 协议到 FIDO：现代 Web 信任链的重构思考</title>
       <link>https://blog.iwindu.com/posts/acme-fido-deep-dive/</link>

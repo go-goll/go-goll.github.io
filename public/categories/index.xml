@@ -11,20 +11,20 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 09 Mar 2026 23:35:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 23:55:00 +0800</lastBuildDate>
     <atom:link href="https://blog.iwindu.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Announcements</title>
-      <link>https://blog.iwindu.com/categories/announcements/</link>
-      <pubDate>Mon, 09 Mar 2026 23:35:00 +0800</pubDate>
-      <guid>https://blog.iwindu.com/categories/announcements/</guid>
+      <title>Tech Research</title>
+      <link>https://blog.iwindu.com/categories/tech-research/</link>
+      <pubDate>Mon, 09 Mar 2026 23:55:00 +0800</pubDate>
+      <guid>https://blog.iwindu.com/categories/tech-research/</guid>
       <description></description>
     </item>
     <item>
-      <title>Tech News</title>
-      <link>https://blog.iwindu.com/categories/tech-news/</link>
-      <pubDate>Mon, 09 Mar 2026 23:30:00 +0800</pubDate>
-      <guid>https://blog.iwindu.com/categories/tech-news/</guid>
+      <title>Tech Guide</title>
+      <link>https://blog.iwindu.com/categories/tech-guide/</link>
+      <pubDate>Mon, 09 Mar 2026 23:50:00 +0800</pubDate>
+      <guid>https://blog.iwindu.com/categories/tech-guide/</guid>
       <description></description>
     </item>
   </channel>

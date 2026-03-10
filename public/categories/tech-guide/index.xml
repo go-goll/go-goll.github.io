@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>iwindu</title>
-    <link>https://blog.iwindu.com/</link>
-    <description>Recent content on iwindu</description>
+    <title>Tech Guide on iwindu</title>
+    <link>https://blog.iwindu.com/categories/tech-guide/</link>
+    <description>Recent content in Tech Guide on iwindu</description>
     <image>
       <title>iwindu</title>
       <url>https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1200&amp;q=80</url>
@@ -11,15 +11,8 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 09 Mar 2026 23:55:00 +0800</lastBuildDate>
-    <atom:link href="https://blog.iwindu.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>从 ACME 协议到 FIDO：现代 Web 信任链的重构思考</title>
-      <link>https://blog.iwindu.com/posts/acme-fido-deep-dive/</link>
-      <pubDate>Mon, 09 Mar 2026 23:55:00 +0800</pubDate>
-      <guid>https://blog.iwindu.com/posts/acme-fido-deep-dive/</guid>
-      <description>&lt;p&gt;前阵子在搞几个内部服务的证书自动化，用 Go 写了个小工具来对接 Let&amp;rsquo;s Encrypt。看着终端里飞速滚动的 ACME (Automatic Certificate Management Environment) 协议交互日志，我突然意识到，过去这十年，Web 的信任体系其实发生了一场静悄悄的革命。&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Mon, 09 Mar 2026 23:50:00 +0800</lastBuildDate>
+    <atom:link href="https://blog.iwindu.com/categories/tech-guide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OpenClaw 深度使用指南与安全防范实践</title>
       <link>https://blog.iwindu.com/posts/openclaw-guide-and-security/</link>

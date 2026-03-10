@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.iwindu.com/categories/announcements/</loc>
-    <lastmod>2026-03-09T23:35:00+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.iwindu.com/tags/blog/</loc>
-    <lastmod>2026-03-09T23:35:00+08:00</lastmod>
+    <loc>https://blog.iwindu.com/tags/acme/</loc>
+    <lastmod>2026-03-09T23:55:00+08:00</lastmod>
   </url><url>
     <loc>https://blog.iwindu.com/categories/</loc>
-    <lastmod>2026-03-09T23:35:00+08:00</lastmod>
+    <lastmod>2026-03-09T23:55:00+08:00</lastmod>
   </url><url>
-    <loc>https://blog.iwindu.com/tags/guide/</loc>
-    <lastmod>2026-03-09T23:35:00+08:00</lastmod>
+    <loc>https://blog.iwindu.com/tags/fido/</loc>
+    <lastmod>2026-03-09T23:55:00+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.iwindu.com/tags/go/</loc>
+    <lastmod>2026-03-09T23:55:00+08:00</lastmod>
   </url><url>
     <loc>https://blog.iwindu.com/</loc>
-    <lastmod>2026-03-09T23:35:00+08:00</lastmod>
+    <lastmod>2026-03-09T23:55:00+08:00</lastmod>
   </url><url>
     <loc>https://blog.iwindu.com/posts/</loc>
-    <lastmod>2026-03-09T23:35:00+08:00</lastmod>
+    <lastmod>2026-03-09T23:55:00+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.iwindu.com/tags/security/</loc>
+    <lastmod>2026-03-09T23:55:00+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.iwindu.com/tags/ssl/</loc>
+    <lastmod>2026-03-09T23:55:00+08:00</lastmod>
   </url><url>
     <loc>https://blog.iwindu.com/tags/</loc>
-    <lastmod>2026-03-09T23:35:00+08:00</lastmod>
+    <lastmod>2026-03-09T23:55:00+08:00</lastmod>
   </url><url>
-    <loc>https://blog.iwindu.com/tags/workflow/</loc>
-    <lastmod>2026-03-09T23:35:00+08:00</lastmod>
+    <loc>https://blog.iwindu.com/categories/tech-research/</loc>
+    <lastmod>2026-03-09T23:55:00+08:00</lastmod>
   </url><url>
-    <loc>https://blog.iwindu.com/posts/how-to-update-blog/</loc>
-    <lastmod>2026-03-09T23:35:00+08:00</lastmod>
+    <loc>https://blog.iwindu.com/posts/acme-fido-deep-dive/</loc>
+    <lastmod>2026-03-09T23:55:00+08:00</lastmod>
   </url><url>
-    <loc>https://blog.iwindu.com/tags/amd/</loc>
-    <lastmod>2026-03-09T23:30:00+08:00</lastmod>
+    <loc>https://blog.iwindu.com/tags/ai/</loc>
+    <lastmod>2026-03-09T23:50:00+08:00</lastmod>
   </url><url>
-    <loc>https://blog.iwindu.com/tags/apple/</loc>
-    <lastmod>2026-03-09T23:30:00+08:00</lastmod>
+    <loc>https://blog.iwindu.com/tags/openclaw/</loc>
+    <lastmod>2026-03-09T23:50:00+08:00</lastmod>
   </url><url>
-    <loc>https://blog.iwindu.com/tags/hardware/</loc>
-    <lastmod>2026-03-09T23:30:00+08:00</lastmod>
+    <loc>https://blog.iwindu.com/posts/openclaw-guide-and-security/</loc>
+    <lastmod>2026-03-09T23:50:00+08:00</lastmod>
   </url><url>
-    <loc>https://blog.iwindu.com/tags/intel/</loc>
-    <lastmod>2026-03-09T23:30:00+08:00</lastmod>
+    <loc>https://blog.iwindu.com/tags/self-hosted/</loc>
+    <lastmod>2026-03-09T23:50:00+08:00</lastmod>
   </url><url>
-    <loc>https://blog.iwindu.com/tags/tech/</loc>
-    <lastmod>2026-03-09T23:30:00+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.iwindu.com/categories/tech-news/</loc>
-    <lastmod>2026-03-09T23:30:00+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.iwindu.com/posts/tech-news-2026-03/</loc>
-    <lastmod>2026-03-09T23:30:00+08:00</lastmod>
+    <loc>https://blog.iwindu.com/categories/tech-guide/</loc>
+    <lastmod>2026-03-09T23:50:00+08:00</lastmod>
   </url>
 </urlset>

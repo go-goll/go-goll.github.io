@@ -11,62 +11,62 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 09 Mar 2026 23:35:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 23:55:00 +0800</lastBuildDate>
     <atom:link href="https://blog.iwindu.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blog</title>
-      <link>https://blog.iwindu.com/tags/blog/</link>
-      <pubDate>Mon, 09 Mar 2026 23:35:00 +0800</pubDate>
-      <guid>https://blog.iwindu.com/tags/blog/</guid>
+      <title>ACME</title>
+      <link>https://blog.iwindu.com/tags/acme/</link>
+      <pubDate>Mon, 09 Mar 2026 23:55:00 +0800</pubDate>
+      <guid>https://blog.iwindu.com/tags/acme/</guid>
       <description></description>
     </item>
     <item>
-      <title>Guide</title>
-      <link>https://blog.iwindu.com/tags/guide/</link>
-      <pubDate>Mon, 09 Mar 2026 23:35:00 +0800</pubDate>
-      <guid>https://blog.iwindu.com/tags/guide/</guid>
+      <title>FIDO</title>
+      <link>https://blog.iwindu.com/tags/fido/</link>
+      <pubDate>Mon, 09 Mar 2026 23:55:00 +0800</pubDate>
+      <guid>https://blog.iwindu.com/tags/fido/</guid>
       <description></description>
     </item>
     <item>
-      <title>Workflow</title>
-      <link>https://blog.iwindu.com/tags/workflow/</link>
-      <pubDate>Mon, 09 Mar 2026 23:35:00 +0800</pubDate>
-      <guid>https://blog.iwindu.com/tags/workflow/</guid>
+      <title>Go</title>
+      <link>https://blog.iwindu.com/tags/go/</link>
+      <pubDate>Mon, 09 Mar 2026 23:55:00 +0800</pubDate>
+      <guid>https://blog.iwindu.com/tags/go/</guid>
       <description></description>
     </item>
     <item>
-      <title>AMD</title>
-      <link>https://blog.iwindu.com/tags/amd/</link>
-      <pubDate>Mon, 09 Mar 2026 23:30:00 +0800</pubDate>
-      <guid>https://blog.iwindu.com/tags/amd/</guid>
+      <title>Security</title>
+      <link>https://blog.iwindu.com/tags/security/</link>
+      <pubDate>Mon, 09 Mar 2026 23:55:00 +0800</pubDate>
+      <guid>https://blog.iwindu.com/tags/security/</guid>
       <description></description>
     </item>
     <item>
-      <title>Apple</title>
-      <link>https://blog.iwindu.com/tags/apple/</link>
-      <pubDate>Mon, 09 Mar 2026 23:30:00 +0800</pubDate>
-      <guid>https://blog.iwindu.com/tags/apple/</guid>
+      <title>SSL</title>
+      <link>https://blog.iwindu.com/tags/ssl/</link>
+      <pubDate>Mon, 09 Mar 2026 23:55:00 +0800</pubDate>
+      <guid>https://blog.iwindu.com/tags/ssl/</guid>
       <description></description>
     </item>
     <item>
-      <title>Hardware</title>
-      <link>https://blog.iwindu.com/tags/hardware/</link>
-      <pubDate>Mon, 09 Mar 2026 23:30:00 +0800</pubDate>
-      <guid>https://blog.iwindu.com/tags/hardware/</guid>
+      <title>AI</title>
+      <link>https://blog.iwindu.com/tags/ai/</link>
+      <pubDate>Mon, 09 Mar 2026 23:50:00 +0800</pubDate>
+      <guid>https://blog.iwindu.com/tags/ai/</guid>
       <description></description>
     </item>
     <item>
-      <title>Intel</title>
-      <link>https://blog.iwindu.com/tags/intel/</link>
-      <pubDate>Mon, 09 Mar 2026 23:30:00 +0800</pubDate>
-      <guid>https://blog.iwindu.com/tags/intel/</guid>
+      <title>OpenClaw</title>
+      <link>https://blog.iwindu.com/tags/openclaw/</link>
+      <pubDate>Mon, 09 Mar 2026 23:50:00 +0800</pubDate>
+      <guid>https://blog.iwindu.com/tags/openclaw/</guid>
       <description></description>
     </item>
     <item>
-      <title>Tech</title>
-      <link>https://blog.iwindu.com/tags/tech/</link>
-      <pubDate>Mon, 09 Mar 2026 23:30:00 +0800</pubDate>
-      <guid>https://blog.iwindu.com/tags/tech/</guid>
+      <title>Self-Hosted</title>
+      <link>https://blog.iwindu.com/tags/self-hosted/</link>
+      <pubDate>Mon, 09 Mar 2026 23:50:00 +0800</pubDate>
+      <guid>https://blog.iwindu.com/tags/self-hosted/</guid>
       <description></description>
     </item>
   </channel>

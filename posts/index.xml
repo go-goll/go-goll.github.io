@@ -11,24 +11,21 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 09 Mar 2026 23:35:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 23:55:00 +0800</lastBuildDate>
     <atom:link href="https://blog.iwindu.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>未来我们如何配合更新博客：全自动发布指南</title>
-      <link>https://blog.iwindu.com/posts/how-to-update-blog/</link>
-      <pubDate>Mon, 09 Mar 2026 23:35:00 +0800</pubDate>
-      <guid>https://blog.iwindu.com/posts/how-to-update-blog/</guid>
-      <description>&lt;p&gt;为了让你的博客 &lt;code&gt;blog.iwindu.com&lt;/code&gt; 在未来能够轻松迭代、支持广告接入并且拥有绝佳的阅读体验，我为你重新搭建了基于 &lt;strong&gt;Hugo + PaperMod 主题&lt;/strong&gt;的现代化底层架构。&lt;/p&gt;
-&lt;p&gt;现在，你不仅拥有了一个速度极快、完全支持暗色模式（Dark Mode）、代码高亮和响应式的博客，而且我为你设计了一套极其简单的更新流。&lt;/p&gt;</description>
+      <title>从 ACME 协议到 FIDO：现代 Web 信任链的重构思考</title>
+      <link>https://blog.iwindu.com/posts/acme-fido-deep-dive/</link>
+      <pubDate>Mon, 09 Mar 2026 23:55:00 +0800</pubDate>
+      <guid>https://blog.iwindu.com/posts/acme-fido-deep-dive/</guid>
+      <description>&lt;p&gt;前阵子在搞几个内部服务的证书自动化，用 Go 写了个小工具来对接 Let&amp;rsquo;s Encrypt。看着终端里飞速滚动的 ACME (Automatic Certificate Management Environment) 协议交互日志，我突然意识到，过去这十年，Web 的信任体系其实发生了一场静悄悄的革命。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>近期前沿科技速览：Apple、Intel 及 AMD 新品动向 (2026年3月)</title>
-      <link>https://blog.iwindu.com/posts/tech-news-2026-03/</link>
-      <pubDate>Mon, 09 Mar 2026 23:30:00 +0800</pubDate>
-      <guid>https://blog.iwindu.com/posts/tech-news-2026-03/</guid>
-      <description>&lt;p&gt;近期科技行业动态频频，特别是几大芯片和硬件巨头都有重磅动作。作为我们博客的第一期科技简报，我们来看看近期最值得关注的行业动态。&lt;/p&gt;
-&lt;h2 id=&#34;-apple-m5-系列芯片预演与折叠屏探索&#34;&gt;🍎 Apple: M5 系列芯片预演与折叠屏探索&lt;/h2&gt;
-&lt;p&gt;Apple 近期动作主要集中在下一代芯片架构的打磨上。关于 &lt;strong&gt;M5 系列芯片&lt;/strong&gt;的传言四起，预计会采用更加先进的 2nm 制程工艺，这不仅在性能上有 20% 左右的跃升，同时能耗比将再次打破记录。&lt;/p&gt;</description>
+      <title>OpenClaw 深度使用指南与安全防范实践</title>
+      <link>https://blog.iwindu.com/posts/openclaw-guide-and-security/</link>
+      <pubDate>Mon, 09 Mar 2026 23:50:00 +0800</pubDate>
+      <guid>https://blog.iwindu.com/posts/openclaw-guide-and-security/</guid>
+      <description>&lt;p&gt;最近一直在折腾 OpenClaw，这玩意儿作为自托管的 AI 助手引擎，确实有两把刷子。比起那些被厂商框得死死、动不动就“对不起我不能回答”的云端机器人，OpenClaw 给了我们对机器真正的掌控权。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

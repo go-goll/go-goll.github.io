@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on iwindu</title>
-    <link>https://blog.iwindu.com/posts/</link>
-    <description>Recent content in Posts on iwindu</description>
+    <title>Guide on iwindu</title>
+    <link>https://blog.iwindu.com/tags/guide/</link>
+    <description>Recent content in Guide on iwindu</description>
     <image>
       <title>iwindu</title>
       <url>https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1200&amp;q=80</url>
@@ -12,7 +12,7 @@
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 09 Mar 2026 23:35:00 +0800</lastBuildDate>
-    <atom:link href="https://blog.iwindu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.iwindu.com/tags/guide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>未来我们如何配合更新博客：全自动发布指南</title>
       <link>https://blog.iwindu.com/posts/how-to-update-blog/</link>
@@ -20,15 +20,6 @@
       <guid>https://blog.iwindu.com/posts/how-to-update-blog/</guid>
       <description>&lt;p&gt;为了让你的博客 &lt;code&gt;blog.iwindu.com&lt;/code&gt; 在未来能够轻松迭代、支持广告接入并且拥有绝佳的阅读体验，我为你重新搭建了基于 &lt;strong&gt;Hugo + PaperMod 主题&lt;/strong&gt;的现代化底层架构。&lt;/p&gt;
 &lt;p&gt;现在，你不仅拥有了一个速度极快、完全支持暗色模式（Dark Mode）、代码高亮和响应式的博客，而且我为你设计了一套极其简单的更新流。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>近期前沿科技速览：Apple、Intel 及 AMD 新品动向 (2026年3月)</title>
-      <link>https://blog.iwindu.com/posts/tech-news-2026-03/</link>
-      <pubDate>Mon, 09 Mar 2026 23:30:00 +0800</pubDate>
-      <guid>https://blog.iwindu.com/posts/tech-news-2026-03/</guid>
-      <description>&lt;p&gt;近期科技行业动态频频，特别是几大芯片和硬件巨头都有重磅动作。作为我们博客的第一期科技简报，我们来看看近期最值得关注的行业动态。&lt;/p&gt;
-&lt;h2 id=&#34;-apple-m5-系列芯片预演与折叠屏探索&#34;&gt;🍎 Apple: M5 系列芯片预演与折叠屏探索&lt;/h2&gt;
-&lt;p&gt;Apple 近期动作主要集中在下一代芯片架构的打磨上。关于 &lt;strong&gt;M5 系列芯片&lt;/strong&gt;的传言四起，预计会采用更加先进的 2nm 制程工艺，这不仅在性能上有 20% 左右的跃升，同时能耗比将再次打破记录。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

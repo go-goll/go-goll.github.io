@@ -1,13 +1,266 @@
-<!doctype html><html lang=zh-cn data-theme=dark><head><meta name=generator content="Hugo 0.147.0"><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=X-UA-Compatible content="IE=edge"><title>iwindu</title>
-<meta name=description content="Go开发者 | SSL证书 | FIDO | ACME协议研究"><meta name=author content="iwindu"><meta property="og:title" content="iwindu"><meta property="og:description" content="Go开发者 | SSL证书 | FIDO | ACME协议研究"><meta property="og:type" content="website"><meta property="og:url" content="https://blog.iwindu.com/"><link rel=icon type=image/svg+xml href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔧</text></svg>"><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel=stylesheet><link rel=stylesheet href=/css/main.min.css><link rel=alternate type=application/rss+xml title=iwindu href=/index.xml><link rel=stylesheet href=/css/syntax.css></head><body><header class=header><div class=header-container><div class=header-brand><a href=/ class=brand-link><span class=brand-icon>🔧</span>
-<span class=brand-text>iwindu</span>
-</a><span class=brand-tagline>吹吹风，过过生活</span></div><nav class=header-nav><button class=nav-toggle aria-label="Toggle navigation" onclick='document.querySelector(".nav-menu").classList.toggle("is-active")'><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentcolor" stroke-width="2" fill="none"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button><ul class=nav-menu><li class=nav-item><a href=/ class=nav-link>首页</a></li><li class=nav-item><a href=/post/ class=nav-link>文章</a></li><li class=nav-item><a href=/categories/ class=nav-link>分类</a></li><li class=nav-item><a href=/tags/ class=nav-link>标签</a></li><li class=nav-item><a href=/about/ class=nav-link>关于</a></li></ul><button class=theme-toggle aria-label="Toggle theme" onclick=toggleTheme()><svg class="theme-icon-dark" viewBox="0 0 24 24" width="20" height="20" stroke="currentcolor" stroke-width="2" fill="none"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg class="theme-icon-light" viewBox="0 0 24 24" width="20" height="20" stroke="currentcolor" stroke-width="2" fill="none"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></nav></div></header><main class=main><section class=hero><h1 class=hero-title>iwindu</h1><p class=hero-subtitle>Go开发者 | SSL证书 | FIDO | ACME协议研究</p><div class=hero-cta><a href=/post/ class="btn btn-primary">浏览文章</a>
-<a href=https://github.com/go-goll target=_blank class="btn btn-secondary">GitHub</a></div></section><section class=recent-posts><h2 class=section-title>最新文章</h2><div class=post-list><article class=post-card><div class=post-meta><span class=post-date><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-2024-03-08
-</span><a href=/categories/go class=post-category>Go</a></div><h3 class=post-title><a href=/post/openclaw-guide/>OpenClaw 安装与使用指南：打造你的专属 AI 助手</a></h3><p class=post-summary>什么是 OpenClaw？ OpenClaw 是一个开源的自托管 AI 助手平台，它让你能够在自己的服务器上运行 AI 助手，并通过多种渠道（Telegram、WhatsApp、Discord、Slack 等）与你交互。
-与传统的 AI 聊天服务不同，OpenClaw 的核心理念是自主可控：
-特性 说明 🔒 数据隐私 所有数据都存储在你自己的机器上 🔧 功能强大 浏览器自动化、代码执行、定时任务、 …</p><div class=post-tags><a href=/tags/openclaw class=post-tag>#openclaw</a>
-<a href=/tags/ai class=post-tag>#ai</a>
-<a href=/tags/%E6%95%99%E7%A8%8B class=post-tag>#教程</a>
-<a href=/tags/%E8%87%AA%E6%89%98%E7%AE%A1 class=post-tag>#自托管</a></div></article></div></section></main><footer class=footer><div class=footer-container><div class=footer-section><h4 class=footer-title>关于</h4><p class=footer-desc>Go开发者 | SSL证书 | FIDO | ACME协议研究</p><div class=footer-social><a href=https://github.com/go-goll target=_blank rel=noopener aria-label=GitHub><svg viewBox="0 0 24 24" width="20" height="20" fill="currentcolor"><path d="M12 0C5.374.0.0 5.373.0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931.0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176.0.0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221.0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
-</a><a href=/index.xml aria-label=RSS><svg viewBox="0 0 24 24" width="20" height="20" fill="currentcolor"><path d="M19.199 24C19.199 13.467 10.533 4.8.0 4.8V0c13.165.0 24 10.835 24 24h-4.801zM3.291 17.415c1.814.0 3.293 1.479 3.293 3.295.0 1.813-1.485 3.29-3.301 3.29C1.47 24 0 22.526.0 20.71s1.475-3.294 3.291-3.295zM15.909 24h-4.665c0-6.946-5.636-12.588-12.587-12.588v-4.65c9.521.0 17.252 7.731 17.252 17.238z"/></svg></a></div></div><div class=footer-section><h4 class=footer-title>分类</h4><ul class=footer-links><li><a href=/categories/go/>Go</a></li><li><a href=/categories/ssl/>SSL/TLS</a></li><li><a href=/categories/fido/>FIDO</a></li><li><a href=/categories/acme/>ACME</a></li></ul></div><div class=footer-section><h4 class=footer-title>链接</h4><ul class=footer-links><li><a href=https://golang.org target=_blank rel=noopener>Go</a></li><li><a href=https://letsencrypt.org target=_blank rel=noopener>Let's Encrypt</a></li><li><a href=https://fidoalliance.org target=_blank rel=noopener>FIDO Alliance</a></li><li><a href=https://github.com/go-goll target=_blank rel=noopener>GitHub</a></li></ul></div></div><div class=footer-bottom><p>&copy; 2026 iwindu. Built with <a href=https://gohugo.io target=_blank>Hugo</a>.</p></div></footer><script>(function(){const e=document.documentElement,t=localStorage.getItem("theme")||"dark";e.setAttribute("data-theme",t),window.toggleTheme=function(){const n=e.getAttribute("data-theme"),t=n==="dark"?"light":"dark";e.setAttribute("data-theme",t),localStorage.setItem("theme",t)}})()</script></body></html>
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.147.0"><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>iwindu</title>
+<meta name="keywords" content="Go, SSL, FIDO, ACME, Tech Blog">
+<meta name="description" content="Go开发者 | SSL证书 | FIDO | ACME协议研究">
+<meta name="author" content="iwindu">
+<link rel="canonical" href="https://blog.iwindu.com/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://blog.iwindu.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://blog.iwindu.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://blog.iwindu.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://blog.iwindu.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://blog.iwindu.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://blog.iwindu.com/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="https://blog.iwindu.com/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://blog.iwindu.com/">
+  <meta property="og:site_name" content="iwindu">
+  <meta property="og:title" content="iwindu">
+  <meta property="og:description" content="Go开发者 | SSL证书 | FIDO | ACME协议研究">
+  <meta property="og:locale" content="zh_cn">
+  <meta property="og:type" content="website">
+      <meta property="og:image" content="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1200&amp;q=80">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1200&amp;q=80">
+  <meta name="twitter:title" content="iwindu">
+  <meta name="twitter:description" content="Go开发者 | SSL证书 | FIDO | ACME协议研究">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "iwindu",
+  "url": "https://blog.iwindu.com/",
+  "description": "Go开发者 | SSL证书 | FIDO | ACME协议研究",
+  "logo": "https://blog.iwindu.com/favicon.ico",
+  "sameAs": [
+      "https://github.com/go-goll"
+  ]
+}
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://blog.iwindu.com/" accesskey="h" title="iwindu (Alt + H)">iwindu</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://blog.iwindu.com/posts/" title="文章">
+                    <span>文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://blog.iwindu.com/categories/" title="分类">
+                    <span>分类</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://blog.iwindu.com/tags/" title="标签">
+                    <span>标签</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"><div class="profile">
+    <div class="profile_inner">
+        <img draggable="false" src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=400&amp;q=80" alt="iwindu" title="iwindu"
+            height="150" width="150" />
+        <h1>iwindu</h1>
+        <span>吹吹风，过过生活 | 专注于 Go 开发、SSL 证书与 FIDO 研究。</span><div class="social-icons" >
+    <a href="https://github.com/go-goll" target="_blank" rel="noopener noreferrer me"
+        title="Github">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+    </a>
+</div>
+
+        <div class="buttons">
+            <a class="button" href="/posts" rel="noopener" title="浏览文章">
+                <span class="button-inner">
+                    浏览文章
+                </span>
+            </a>
+            <a class="button" href="https://github.com/go-goll" rel="noopener" title="GitHub">
+                <span class="button-inner">
+                    GitHub&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="14" width="14">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </span>
+            </a>
+        </div>
+    </div>
+</div>
+
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://blog.iwindu.com/">iwindu</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -1,126 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on iwindu</title><link>https://blog.iwindu.com/</link><description>Recent content in Home on iwindu</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 08 Mar 2024 22:00:00 +0800</lastBuildDate><atom:link href="https://blog.iwindu.com/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenClaw 安装与使用指南：打造你的专属 AI 助手</title><link>https://blog.iwindu.com/post/openclaw-guide/</link><pubDate>Fri, 08 Mar 2024 22:00:00 +0800</pubDate><guid>https://blog.iwindu.com/post/openclaw-guide/</guid><description>&lt;h2 id="什么是-openclaw">什么是 OpenClaw？&lt;/h2>
-&lt;p>&lt;strong>OpenClaw&lt;/strong> 是一个开源的自托管 AI 助手平台，它让你能够在自己的服务器上运行 AI 助手，并通过多种渠道（Telegram、WhatsApp、Discord、Slack 等）与你交互。&lt;/p>
-&lt;p>与传统的 AI 聊天服务不同，OpenClaw 的核心理念是&lt;strong>自主可控&lt;/strong>：&lt;/p>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th style="text-align: left">特性&lt;/th>
- &lt;th style="text-align: left">说明&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td style="text-align: left">🔒 &lt;strong>数据隐私&lt;/strong>&lt;/td>
- &lt;td style="text-align: left">所有数据都存储在你自己的机器上&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">🔧 &lt;strong>功能强大&lt;/strong>&lt;/td>
- &lt;td style="text-align: left">浏览器自动化、代码执行、定时任务、文件操作&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">📱 &lt;strong>多通道支持&lt;/strong>&lt;/td>
- &lt;td style="text-align: left">Telegram、WhatsApp、Discord、Slack、邮件等&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">🤖 &lt;strong>模型灵活&lt;/strong>&lt;/td>
- &lt;td style="text-align: left">OpenAI、Anthropic、Google、本地模型等&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;h2 id="系统要求">系统要求&lt;/h2>
-&lt;p>在安装之前，确保你的系统满足以下要求：&lt;/p>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>项目&lt;/th>
- &lt;th>要求&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>操作系统&lt;/td>
- &lt;td>macOS、Linux 或 Windows (推荐 WSL2)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Node.js&lt;/td>
- &lt;td>22 或更高版本&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>内存&lt;/td>
- &lt;td>建议 2GB+&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>磁盘空间&lt;/td>
- &lt;td>至少 1GB 可用空间&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;p>检查 Node.js 版本：&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">node --version
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="安装-openclaw">安装 OpenClaw&lt;/h2>
-&lt;div class="method-cards">
-&lt;div class="method-card recommended">
-&lt;div class="method-header">
-&lt;span class="method-number">1&lt;/span>
-&lt;h3 class="method-title">一键安装脚本&lt;/h3>
-&lt;span class="method-badge">推荐&lt;/span>
-&lt;/div>
-&lt;div class="method-body">
-&lt;p class="method-desc">最简单的方式，自动检测环境并完成安装&lt;/p>
-&lt;div class="method-label">macOS / Linux / WSL2&lt;/div>
-&lt;div class="method-code">
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">curl -fsSL https://openclaw.ai/install.sh &lt;span class="p">|&lt;/span> bash
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;/div>
-&lt;div class="method-label" style="margin-top: 1em;">Windows (PowerShell)&lt;/div>
-&lt;div class="method-code">
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">iwr &lt;/span>&lt;span class="n">-useb&lt;/span> &lt;span class="n">https&lt;/span>&lt;span class="err">:&lt;/span>&lt;span class="p">//&lt;/span>&lt;span class="n">openclaw&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">ai&lt;/span>&lt;span class="p">/&lt;/span>&lt;span class="n">install&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="py">ps1&lt;/span> &lt;span class="p">|&lt;/span> &lt;span class="nb">iex
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="method-card">
-&lt;div class="method-header">
-&lt;span class="method-number">2&lt;/span>
-&lt;h3 class="method-title">npm 安装&lt;/h3>
-&lt;/div>
-&lt;div class="method-body">
-&lt;p class="method-desc">适合已安装 Node.js 22+ 的用户&lt;/p></description></item><item><title>关于</title><link>https://blog.iwindu.com/page/about/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://blog.iwindu.com/page/about/</guid><description>&lt;h2 id="-你好我是-iwindu">👋 你好，我是 iwindu&lt;/h2>
-&lt;p>一名热爱技术的 &lt;strong>Go 语言开发者&lt;/strong>，专注于以下领域：&lt;/p>
-&lt;h3 id="-专业领域">🎯 专业领域&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>Go 语言开发&lt;/strong> — 高性能后端服务、微服务架构、云原生应用&lt;/li>
-&lt;li>&lt;strong>SSL/TLS 安全&lt;/strong> — 证书管理、协议实现、安全最佳实践&lt;/li>
-&lt;li>&lt;strong>FIDO 认证&lt;/strong> — 无密码认证、WebAuthn 协议、硬件密钥&lt;/li>
-&lt;li>&lt;strong>ACME 协议&lt;/strong> — Let&amp;rsquo;s Encrypt 自动化、证书生命周期管理&lt;/li>
-&lt;/ul>
-&lt;h3 id="-关于这个博客">📝 关于这个博客&lt;/h3>
-&lt;p>这里记录我的技术探索、学习心得和实践经验。&lt;/p>
-&lt;blockquote>
-&lt;p>&amp;ldquo;吹吹风，过过生活&amp;rdquo; —— 在代码与生活之间寻找平衡。&lt;/p>&lt;/blockquote>
-&lt;h3 id="-联系方式">🔗 联系方式&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>GitHub&lt;/strong>: &lt;a href="https://github.com/go-goll">go-goll&lt;/a>&lt;/li>
-&lt;li>&lt;strong>博客&lt;/strong>: &lt;a href="https://blog.iwindu.com">blog.iwindu.com&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;p>欢迎交流技术问题，也欢迎提出建议！&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>iwindu</title>
+    <link>https://blog.iwindu.com/</link>
+    <description>Recent content on iwindu</description>
+    <image>
+      <title>iwindu</title>
+      <url>https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1200&amp;q=80</url>
+      <link>https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1200&amp;q=80</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 09 Mar 2026 23:35:00 +0800</lastBuildDate>
+    <atom:link href="https://blog.iwindu.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>未来我们如何配合更新博客：全自动发布指南</title>
+      <link>https://blog.iwindu.com/posts/how-to-update-blog/</link>
+      <pubDate>Mon, 09 Mar 2026 23:35:00 +0800</pubDate>
+      <guid>https://blog.iwindu.com/posts/how-to-update-blog/</guid>
+      <description>&lt;p&gt;为了让你的博客 &lt;code&gt;blog.iwindu.com&lt;/code&gt; 在未来能够轻松迭代、支持广告接入并且拥有绝佳的阅读体验，我为你重新搭建了基于 &lt;strong&gt;Hugo + PaperMod 主题&lt;/strong&gt;的现代化底层架构。&lt;/p&gt;
+&lt;p&gt;现在，你不仅拥有了一个速度极快、完全支持暗色模式（Dark Mode）、代码高亮和响应式的博客，而且我为你设计了一套极其简单的更新流。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>近期前沿科技速览：Apple、Intel 及 AMD 新品动向 (2026年3月)</title>
+      <link>https://blog.iwindu.com/posts/tech-news-2026-03/</link>
+      <pubDate>Mon, 09 Mar 2026 23:30:00 +0800</pubDate>
+      <guid>https://blog.iwindu.com/posts/tech-news-2026-03/</guid>
+      <description>&lt;p&gt;近期科技行业动态频频，特别是几大芯片和硬件巨头都有重磅动作。作为我们博客的第一期科技简报，我们来看看近期最值得关注的行业动态。&lt;/p&gt;
+&lt;h2 id=&#34;-apple-m5-系列芯片预演与折叠屏探索&#34;&gt;🍎 Apple: M5 系列芯片预演与折叠屏探索&lt;/h2&gt;
+&lt;p&gt;Apple 近期动作主要集中在下一代芯片架构的打磨上。关于 &lt;strong&gt;M5 系列芯片&lt;/strong&gt;的传言四起，预计会采用更加先进的 2nm 制程工艺，这不仅在性能上有 20% 左右的跃升，同时能耗比将再次打破记录。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
